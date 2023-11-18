@@ -1,100 +1,49 @@
-
- #title_calc
+.p1
 {
-    margin-left: 40px;
-    font-size: 50px;
-    text-shadow: 30px;
-    width: 200px;
-    color: cadetblue;
+    text-align: 50px; font-family: 'Arial', sans-serif; color: #333; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
 }
-body
-{
-    background: linear-gradient(70deg, rgb(59, 57, 57), rgb(0, 0, 0));
- }
- #title_calc2 
-{
-    border: 4mm ridge rgba(0, 0, 0, 0.6);
-    width: 750px;
-    height: 75px;
-    margin-left: 10px;
-    font-size: 2.2rem;
-    color: aliceblue;
-    -webkit-text-stroke-width: 2.0
-    px;
-} 
-#answer
-{
-    margin-left: 90px;
-     width: 850px;
-     height: 10px;
-     border: 2px solid black;
-     text-align: center;
-     font-weight: 100px;
-     cursor: pointer;
-     /* -webkit-text-stroke-width: 12px; */
- } 
-
-#answer td:hover
+#field1 td:hover
 {
     box-shadow: 10px 10px 11px 17px rgba(46, 5, 121, 0.432);
 }
+#field1 {
+    display: inline-block;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
 
-#id01:hover
-{
-    background-color: rgb(231, 10, 10);
+#field1 td {
+    width: 650px;
+    height: 270px;
+    border: 2px solid black;
+    text-align: center;
+    font-weight: 100px;
+    font-size: 11rem;
+    cursor: pointer;
+    -webkit-text-stroke-width: 25px;
 }
-#id_total:hover
-{
-    background-color: gold;
+
+/* Стиль для ячейки с "X" или "O" */
+#field1 td div {
+    line-height: 300px;
 }
-/* .calc-container {
-    background-color: #f8f9fa;
-    border: 1px solid #dee2e6;
-    margin-right: 1000px;
-    border-radius: 10px;
-    padding: 20px;
+
+/* Стиль для кнопки "Restart" */
+/* #button13 {
+    display: block;
+    height: 42px;
+	border: none;
+	background: #ec1606;
+	color: #f2f2f2;
+	padding: 10px;
+	font-size: 18px;
+	border-radius: 5px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
 } */
 
-.calc-title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.calc-button {
-    font-size: 18px;
-    width: 100%;
-    height: 80px; /* Устанавливаем фиксированную высоту для кнопок */
-    margin: 5px 0;
-    display: flex;
-    align-items: center; /* Выравниваем по вертикали по центру */
-    /* justify-content: center; Выравниваем по горизонтали по центру */
-}
-
-.calc-result {
-    font-size: 24px;
-    font-weight: bold;
-    text-align: left;
-    margin-top: 20px;
-}
-
-#seocnd_brid
-{
-    margin-left: 80px;
-}   
-
-footer
-{
-    color: black;
-    bottom: 1000%;
-   
-}
-#id_skob
-{
-    width: 120px;
-}
-#id_skob2
-{
-    width: 120px;
+/* Фон страницы */
+body {
+    background-color: #cac8c8;
 }

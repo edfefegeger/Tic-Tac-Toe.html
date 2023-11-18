@@ -10,8 +10,6 @@ var tittle = document.createElement(`title`);
 tittle.innerHTML = `Tic-Tac-Toe`;
 document.head.append(tittle);
 
-
-
 // Попытка добавления поля в js
 
   var field1 = document.createElement(`table`)
